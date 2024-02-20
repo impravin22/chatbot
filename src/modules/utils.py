@@ -23,10 +23,10 @@ class Utilities:
         else:
             if st.session_state.api_key is not None:
                 # user_api_key = st.session_state.api_key
-                user_api_key = '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'
+                user_api_key = 'your_api_key'
                 st.sidebar.success("API key loaded from previous input", icon="🚀")
             else:
-                user_api_key = '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'
+                user_api_key = 'your_api_key'
                 # user_api_key = st.sidebar.text_input(
                 #     label="#### Your OpenAI API key 👇", placeholder="sk-...", type="password"
                 # )
